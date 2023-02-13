@@ -35,12 +35,11 @@ section {
   color: white;
   font-size: 20px;
 }
-#bar{
+#bar, #closebtn{
   display: none;
+  color: white;
 }
-#closebtn{
-  display: none;
-}
+
 .header-container {
   position: relative;
 
@@ -108,9 +107,7 @@ header {
   font-family: "Lato", sans-serif;
   color: white;
 }
-#menu{
- 
-}
+
 /* media query for header */
 @media (max-width: 768px) {
   .left h1 {
